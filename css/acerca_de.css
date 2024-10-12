@@ -16,7 +16,7 @@
 
 
 .acerca_de .columna .image {
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
 }
 
 .acerca_de .columna .image img{
@@ -24,7 +24,7 @@
 }
 
 .acerca_de .columna .content{
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
 }
 
 .acerca_de .columna .content h3{
@@ -37,17 +37,34 @@
     color: #666;
 }
 
+.acerca_de .columna .content .bottons a{
+    width: 210px;
+    text-align: center;
+}
 
-.acerca_de .columna .content .bottons a:last-child{
-    margin-left:2rem;
+.acerca_de .columna .content .bottons a:first-child{
+    margin-right: 2rem;
 
 }
+
+
 
 @media (width < 768) {
     .acerca_de{
         background-position: right;
     }
+    
 }
+
+
+@media (width < 728) {
+
+    .acerca_de .columna .content .bottons a:first-child{
+        margin-left:2rem;
+    
+    }
+}
+
 
 @media (width < 450) {
     .acerca_de .columna .content .bottons a{
