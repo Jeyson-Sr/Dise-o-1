@@ -29,6 +29,10 @@
     transition: .2s linear;
 }
 
+.detalles .caja-contenedor .cajas img{
+    font-size: 15rem;
+}
+
 .detalles .caja-contenedor .cajas h3{
     font-size: 2rem;
     color: #333;
@@ -40,7 +44,7 @@
     font-size: 1.3rem;
     color: #666;
     padding: 1rem 0;
-    
+
 }
 
 

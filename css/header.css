@@ -54,6 +54,14 @@ header label{
 
 }
 
+@media (width < 990px){
+    section{
+        padding: 0 3%;
+        padding-top: 7.5rem;
+        padding-bottom: 2rem;
+    }
+
+}
 @media (width < 768px){
     header label{
         visibility: visible;
