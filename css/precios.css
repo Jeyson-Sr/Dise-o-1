@@ -20,6 +20,7 @@
 .precios .caja-contendor .caja:nth-child(2),
 .precios .caja-contendor .caja:hover{
     border: .2rem solid var(--lemon); 
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
 }
 
 .precios .caja-contendor .caja .titulo{
@@ -54,7 +55,7 @@
 
     color:lightgreen;
 }
-.precios .caja-contendor .caja ul li .fa times {
+.precios .caja-contendor .caja ul li .fa-times {
 
     color:lightgreen;
 }
